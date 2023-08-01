@@ -1,0 +1,111 @@
+{
+  "Ticket": {
+    "cleanerId": null,
+    "createdAt": "2023-05-25T09:37:37.492Z",
+    "currentLocation": "abd",
+    "customerId": {
+      "_id": "645fd8f312a9c40b66ae9d16",
+      "email": "admin@test.com"
+    },
+    "description": "abc",
+    "distance": "abc",
+    "dropDate": "abc",
+    "dropPlace": "abc",
+    "dropTime": "abc",
+    "modeOfService": "pickupAndDrop",
+    "otherServiceTypeText": "ABC",
+    "paymentMode": "card",
+    "paymentStatus": "pending",
+    "pickupDate": "abc",
+    "pickupPlace": "abc",
+    "pickupTime": "abc",
+    "picturesOfCar": {
+      "front": "abc",
+      "back": "abc",
+      "left": "abc",
+      "right": "abc",
+      "engine": "abc"
+    },
+    "query": ["ABS"],
+    "scheduleOfService": "current",
+    "status": "accepted",
+    "totalPrice": "abc",
+    "trackingLocation": "abc",
+    "typesOfServices": ["normalCleaning"],
+    "updatedAt": "2023-05-25T09:55:58.036Z",
+    "__v": 0,
+    "_id": "646f2c6104c7f925128340cc"
+  },
+
+  "User": {
+    "accountDisable": false,
+    "createdAt": "2023-06-10T10:38:44.195Z",
+    "currentLocation": [],
+    "email": "karandua2002@gmail.com",
+    "firstName": "karan",
+    "fullName": "karan dua",
+    "lastName": "dua",
+    "photo": "https://lh3.googleusercontent.com/a/AAcHTtcUseypLY8I6wccH4ba1A2hHoSiFV22vVuN1-rrrA=s96-c",
+    "role": "user",
+    "updatedAt": "2023-06-10T10:38:44.195Z",
+    "userUid": 100118,
+    "vehicleId": [],
+    "__v": 0,
+    "_id": "648452b47fb9c69f5f9d1606"
+  },
+
+  "mechanic": {
+    "role": "mechanic",
+    "_id": "6435b5e226409937cdf91da4",
+    "mechanicUid": "600001",
+    "firstName": "Test Mechanic",
+    "lastName": "-1",
+    "fullName": "Test Mechanic -1",
+    "email": "suman@suman3232.in",
+    "phoneNo": "+9132323232332",
+    "accountDisable": false,
+    "currentLocation": [],
+    "createdAt": "2023-04-11T19:32:50.617Z",
+    "updatedAt": "2023-04-11T19:32:50.617Z",
+    "__v": 0
+  },
+
+  "Manager": {
+    "email": "manager.jonathan@gmail.in",
+    "password": "Jonathan123@",
+    "firstName": "Jonathan",
+    "lastName": "Duarte",
+    "phoneNo": "+910987654321",
+    "role": "manager",
+
+    "data": {
+      "success": true,
+      "user": {
+        "userUid": 100117,
+        "firstName": "Jonathan",
+        "lastName": "Duarte",
+        "fullName": "Jonathan Duarte",
+        "email": "manager.jonathan@gmail.in",
+        "password": "$2b$10$Jaxu9mDQyHm0CwGpk6XS6uxmIqKmBem/suc8AaQBplWYpiIiMU/h.",
+        "phoneNo": "+910987654321",
+        "vehicleId": [],
+        "role": "manager",
+        "accountDisable": false,
+        "_id": "64836c05eb0191f13f964ed7",
+        "currentLocation": [],
+        "createdAt": "2023-06-09T18:14:29.231Z",
+        "updatedAt": "2023-06-09T18:14:29.231Z",
+        "__v": 0
+      }
+    }
+  },
+
+  "Admin": {
+    "email": "admin.jonathan@gmail.in",
+    "password": "Jonathan@123",
+    "firstName": "Jonathan",
+    "lastName": "Duarte",
+    "phoneNo": "+910987654321",
+    "role": "admin"
+  }
+}
